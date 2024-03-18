@@ -7,7 +7,7 @@ plugins {
 android {
 
     defaultConfig {
-        applicationId "be.casperverswijvelt.unifiedinternetqs.libre"
+        applicationId "me.d3sox.betternetworktiles.libre"
         targetSdkVersion 35
         compileSdk 35
         minSdkVersion 31
