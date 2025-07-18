@@ -229,3 +229,4 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/android,androidstudio
 
 app/google-services.json
+.idea/

@@ -58,7 +58,6 @@ import be.casperverswijvelt.unifiedinternetqs.ui.pages.InfoPage
 import be.casperverswijvelt.unifiedinternetqs.ui.pages.SettingsPage
 import be.casperverswijvelt.unifiedinternetqs.ui.pages.ShellMethodPage
 import be.casperverswijvelt.unifiedinternetqs.util.AlertDialogData
-import be.casperverswijvelt.unifiedinternetqs.util.reportException
 
 class MainActivity : ComponentActivity() {
 
@@ -112,7 +111,6 @@ class MainActivity : ComponentActivity() {
                 TileApplication.TAG,
                 "Failed to start tile sync foreground service", e
             )
-            reportException(e)
 
             // Not sure what the cause of the 'ForegroundServiceStartNotAllowedException'
             //  is or how to solve it.
